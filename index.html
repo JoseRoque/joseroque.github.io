@@ -1,273 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Welcome</title>
 
-    <title>Jose Roque</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fira+Sans|Roboto:300,400|Questrial|Satisfy">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.css">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
+    <!-- =======================================================
+        Theme Name: Laura
+        Theme URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+        Author: BootstrapMade.com
+        Author URL: https://bootstrapmade.com
+    ======================================================= -->
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <div class="header">
+      <div class="bg-color">
+        <header id="main-header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Jose</span> Roque
-                </a>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#lauraMenu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Jose Roque</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">CV</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse" id="lauraMenu">
+              <ul class="nav navbar-nav navbar-right navbar-border">
+                <li class="active"><a href="#main-header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
             </div>
-            <!-- /.navbar-collapse -->
+          </div>
+        </nav>
+        </header>
+        <div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 wow fadeIn delay-05s">
+              <div class="banner-text">
+                <h2>Hi, I am <span>Jose Roque,</span></h2>
+                <p id='my_titles'></p>
+              </div>
+              <div class="overlay-detail text-center">
+                  <a href="#about"><i class="fa fa-angle-down"></i></a>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
-        <!-- /.container -->
-    </nav>
+        </div>
+      </div>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Welcome</h1>
-                        <p class="intro-text">My name is Jose Roque</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+  <section id="about" class="section-padding wow fadeIn delay-05s">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-right">
+          <img src="img/capThrow.jpg" class="img-responsive">
+        </div>
+        <div class="col-md-2 text-right">
+          <h2 class="title-text">
+            About Me
+          </h2>
+        </div>
+        <div class="col-md-6 text-left">
+          <div class="about-text">
+            <p>Graduate in Computer Engineering from the University of Texas at Arlington.</br>
+
+            Some of my interest include but are not limited to Optimizing Business Operations, Internet of Things, Renewable energy and Social Impact.</br>
+            </br>
+            I have worked with many programming languages including Python, ARMv7 (Assembly), JavaScript, CSS3, HTML5, MATLAB, Java, and C. I have also come to find the intersection between hardware and software to be a rather interesting one through my work with microcontrollers such as the PIC18 or Intel Edison and Arduino Development Kits.</br>
+            </br>
+            I feel complexity is the enemy of execution so I break problems down to their most simplest form </br>
+            </br>
+            I love tinkering with new technologies and frameworks and take a project-based approach to learning. Feel free to check out some of my work.</br>
+            </p>
+          </div>
+          <hr>
+          <a href="documents/Resume_Fall_2016.pdf" class="btn btn-default btn-lg" download="documents/Resume_Fall_2016.pdf">My Resume</a>
+        </div>
+      </div> <!-- end row -->
+    </div>
+  </section>
+
+
+
+
+  <section id="portfolio" class="section-padding wow fadeInUp ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-sm-12">
+          <div class="caption-style-4">
+                  <a href="img/portfolio/clip3.png" data-toggle="lightbox" data-gallery="clip" class="col-lg-4 col-sm-4">
+                      <img src="img/portfolio/clip3.png"  class="img-responsive">
+                      <div class="caption" >
+                        <div class="blur img-responsive"></div>
+                        <div class="caption-text">
+                          <h1>CLIP Life Inventory App</h1>
+                        </div>
+                      </div>
+                  </a>
+                  <a href="img/portfolio/clip0.png" data-toggle="lightbox" data-gallery="clip" data-remote="img/portfolio/clip0.png" ></a>
+                  <a href="img/portfolio/clip1.png" data-toggle="lightbox" data-gallery="clip" data-remote="img/portfolio/clip1.png" ></a>
+                  <a href="img/portfolio/clip2.png" data-toggle="lightbox" data-gallery="clip" data-remote="img/portfolio/clip2.png" ></a>
+                  <a href="img/portfolio/clip4.png" data-toggle="lightbox" data-gallery="clip" data-remote="img/portfolio/clip4.png" ></a>
+                  <a href="img/portfolio/clip5.png" data-toggle="lightbox" data-gallery="clip" data-remote="img/portfolio/clip5.png" ></a>
+                  <a href="img/portfolio/clip6.png" data-toggle="lightbox" data-gallery="clip" data-remote="img/portfolio/clip6.png" ></a>
+                  <a href="img/portfolio/clip7.png" data-toggle="lightbox" data-gallery="clip" data-remote="img/portfolio/clip7.png" ></a>
+
+
+                  <a href="img/portfolio/code4good2.png" data-toggle="lightbox" data-gallery="c4d" class="col-lg-4 col-sm-4">
+                      <img src="img/portfolio/code4good2.png"  class="img-responsive">
+                      <div class="caption" >
+                        <div class="blur img-responsive"></div>
+                        <div class="caption-text">
+                          <h1>JP Morgan Chase Code for Good</h1>
+                        </div>
+                      </div>
+                  </a>
+                  <a href="img/portfolio/code4good1.png" data-toggle="lightbox" data-gallery="c4d" data-remote="img/portfolio/code4good1.png" ></a>
+                  <a href="img/portfolio/code4good0.png" data-toggle="lightbox" data-gallery="c4d" data-remote="img/portfolio/code4good0.png" ></a>
+
+
+                  <a href="img/portfolio/ios4.png" data-toggle="lightbox" data-gallery="ios" class="col-lg-4 col-sm-4">
+                      <img src="img/portfolio/ios4.png"  class="img-responsive">
+                      <div class="caption">
+                        <div class="blur img-responsive"></div>
+                        <div class="caption-text">
+                          <h1>Apple iOS stopwatch</h1>
+                        </div>
+                      </div>
+                  </a>
+                  <a href="img/portfolio/ios0.png" data-toggle="lightbox" data-gallery="ios" data-remote="img/portfolio/ios0.png" ></a>
+                  <a href="img/portfolio/ios1.png" data-toggle="lightbox" data-gallery="ios" data-remote="img/portfolio/ios1.png" ></a>
+                  <a href="img/portfolio/ios2.png" data-toggle="lightbox" data-gallery="ios" data-remote="img/portfolio/ios2.png" ></a>
+                  <a href="img/portfolio/ios3.png" data-toggle="lightbox" data-gallery="ios" data-remote="img/portfolio/ios3.png" ></a>
+                  <a href="img/portfolio/ios5.png" data-toggle="lightbox" data-gallery="ios" data-remote="img/portfolio/ios5.png" ></a>
+
+          </div>
+        </div>
+      </div> <!-- row -->
+      <div class="row">
+        <div class="col-lg-12 col-sm-12">
+          <div class="caption-style-4">
+                  <a href="img/portfolio/login0.png" data-toggle="lightbox" data-gallery="login" class="col-lg-4 col-sm-4">
+                      <img src="img/portfolio/login0.png"  class="img-responsive">
+                      <div class="caption" >
+                        <div class="blur img-responsive"></div>
+                        <div class="caption-text">
+                          <h1>UTA Society of Hispanic Professional Engineers Login System</h1>
+                        </div>
+                      </div>
+                  </a>
+                  <a href="img/portfolio/login1.png" data-toggle="lightbox" data-gallery="login" data-remote="img/portfolio/login1.png" ></a>
+                  <a href="img/portfolio/login2.png" data-toggle="lightbox" data-gallery="login" data-remote="img/portfolio/login2.png" ></a>
+
+                  <a href="img/portfolio/shpe0.png" data-toggle="lightbox" data-gallery="shpe" class="col-lg-4 col-sm-4">
+                      <img src="img/portfolio/shpe0.png"  class="img-responsive">
+                      <div class="caption">
+                        <div class="blur img-responsive"></div>
+                        <div class="caption-text">
+                          <h1>UTA Society of Hispanic Professional Engineers Official Website </h1>
+                          <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                  </a>
+                  <a href="img/portfolio/shpe1.png" data-toggle="lightbox" data-gallery="shpe" data-remote="img/portfolio/shpe1.png" ></a>
+                  <a href="img/portfolio/shpe2.png" data-toggle="lightbox" data-gallery="shpe" data-remote="img/portfolio/shpe2.png" ></a>
+                  <a href="img/portfolio/shpe3.png" data-toggle="lightbox" data-gallery="shpe" data-remote="img/portfolio/shpe3.png" ></a>
+
+                  <a href="img/portfolio/parking1.png" data-toggle="lightbox" data-gallery="parking" class="col-lg-4 col-sm-4">
+                      <img src="img/portfolio/parking1.png"  class="img-responsive">
+                      <div class="caption">
+                        <div class="blur img-responsive"></div>
+                        <div class="caption-text">
+                          <h1>Reverse Parking Sensor</h1>
+                        </div>
+                      </div>
+                  </a>
+                  <a href="img/portfolio/parking0.jpg" data-toggle="lightbox" data-gallery="parking" data-remote="img/portfolio/parking0.jpg" ></a>
+                  <a href="img/portfolio/parking2.jpg" data-toggle="lightbox" data-gallery="parking" data-remote="img/portfolio/parking2.jpg" ></a>
+          </div>
+        </div>
+      </div> <!-- row -->
+    </div>
+  </section>
+  <section id="experiences" class="wow fadeInUp delay-05s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="title-text">
+            I believe an investment in our community is one that provides the greatest return.
+          </h2>
+        </div>
+      <div class="col-lg-12">
+          <div class="wrapper">
+            <div class="column">
+              <div class="inner"></div>
+            </div>
+            <div class="column">
+              <div class="inner"></div>
+            </div>
+            <div class="column">
+              <div class="inner"></div>
+            </div>
+            <div class="column">
+              <div class="inner"></div>
+            </div>
+            <div class="column">
+              <div class="inner"></div>
+            </div>
+            <div class="column">
+              <div class="inner"></div>
+            </div>
+            <div class="column">
+              <div class="inner"></div>
+            </div>
+            <div class="column">
+              <div class="inner"></div>
+            </div>
+            <div class="column">
+              <div class="inner"></div>
+            </div>
+            <div class="column">
+              <div class="inner"></div>
+            </div>
+            <div class="column">
+              <div class="inner"></div>
+            </div>
+            <div class="column">
+              <div class="inner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-padding wow fadeInUp">
+    <div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+              <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+      <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#fade-quote-carousel" data-slide-to="0"></li>
+          <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+          <li data-target="#fade-quote-carousel" data-slide-to="2" class="active"></li>
+        </ol>
+
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+          <div class="item">
+            <blockquote>
+              <p>"If you give the world your best, the best will come back to you.." <br>-Dr. Alfredo Quinones</p>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <p>"..anythings possible. You gotta dream like you never seen obstacles." <br>-J. Cole</p>
+            </blockquote>
+          </div>
+          <div class="active item">
+            <blockquote>
+              <p>"Your time is limited, so don’t waste it living someone else’s life..." <br>-Steve Jobs</p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+  <section id="contact" class="section-padding wow fadeIn delay-05s">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="contact-sec text-center">
+            <h2>Contact</h2>
+            <p>If you have any questions or comments, feel free to reach out to me. Thank You.</p>
+          </div>
+        </div>
+
+        <!-- <div class="col-md-8">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                </div>
+
+                <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
+            </form>
+        </div> -->
+
+        <div class="col-md-12 contact_info text-center">
+          <ul class="list-unstyled">
+              <li><i class="fa fa-phone fa-fw"></i> (214) 960-6330</li>
+              <li><i class="fa fa-envelope-o fa-fw"></i> jose.roque@mavs.uta.edu </li>
+          </ul>
+          <br>
+          <ul class="list-inline">
+              <li>
+                  <a href="https://github.com/JoseRoque"><i class="fa fa-github fa-fw fa-3x"></i></a>
+              </li>
+              <li>
+                  <a href="https://linkedin.com/in/joseroquecse"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+              </li>
+          </ul>
+          <hr class="small">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-2 text-center-xs bg--white">
+    <div class="container">
+      <!--end row-->
+      <div class="row">
+          <div class="col-md-6">
+              <div class="footer">
+                    <div class="credits">
+                        <!--
+                            All the links in the footer should remain intact.
+                            You can delete the links only if you purchased the pro version.
+                            Licensing information: https://bootstrapmade.com/license/
+                            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Laura
+
+                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+                      -->
                     </div>
-                </div>
-            </div>
-        </div>
-    </header>
+              </div>
+          </div>
+      </div>
+      <!--end row-->
+    </div>
+  </footer>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About</h2>
-                <p>I am currently a Computer Engineering Junior at the University of Texas at Arlington.</br>
-
-Some of my interest include but are not limited to Optimizing Business Operations, Internet of Things, Renewable energy and Social Impact.</br>
-</br>
-I have worked with many programming languages including Python, ARMv7 (Assembly), JavaScript, CSS3, HTML5, MATLAB, Java, and C. I have also come to find the intersection between hardware and software to be a rather interesting one through my work with microcontrollers such as the PIC18 or Intel Edison and Arduino Development Kits.</br> 
-</br>
-I feel complexity is the enemy of execution so I break problems down to their most simplest form by taking a bottom up approach and reason up from there however I also recognize the value in seeing the big picture. </br> 
-</br>
-I love tinkering with new technologies and frameworks and take a project-based approach to learning. Feel free to check out some of my work.</br> 
-</p>
-            </div>
-        </div>
-    </section>
-    <section id="projects" class="content-section text-center">
-        <!-- Project One -->
-        <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <h3>CLIP</h3>
-                <h4>Android Application</h4>
-                <small>Clip life inventory application using Parse API. This project enabled myself to learn more about the Android Operating 
-                System and APIs. Another thing I learned while working on this project is how to work in a team setting and how to manage each of my group members strenght and weakness so they would complement each other.
-                For this project we also created test documents, UML diagrams, performed requirements analysis and other things needed in the software development lifecycle.
-                </small>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive" src="img/login.png" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive" src="img/financemenu.png" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive" src="img/expenses.png" alt="">
-                </a>
-            </div>
-        </div><!-- /.row -->
-        <hr>
-        <!-- Project Two -->
-        <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive" src="img/tableview.png" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive" src="img/edit.png" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive" src="img/signup.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-md-3 col-sm-12 col-xs-12">
-                <h3>SHPE UTA Login System</h3>
-                <h4>using JavaFX and Java</h4>
-                <small>Login system created to expedite the process of signing at The University of Texas at Arlington
-                Society of Hispanic Professional Engineers' General Body Meetings.
-                Also helpful in providing snapshot of member involvement as well as a way to implement a point system</small>
-            </div>
-        </div><!-- /.row -->
-        <hr>
-        <!-- Project Three -->
-        <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <h3>SHPE UTA Website</h3>
-                <h4>using JavaScript,CSS3, and HTML5</h4>
-                <small>Any professional organization should have a notable presence on the web, right?.
-                As webmaster for The Society of Hispanic Professional Engineers I designed and 
-                developed the University of Texas at Arlington's chapter's official website.
-                </small>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-4">
-                <a href="#">
-                    <img class="img-responsive" src="img/home.png" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-4">
-                <a href="#">
-                    <img class="img-responsive" src="img/contactus.png" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-4">
-                <a href="#">
-                    <img class="img-responsive" src="img/resources.png" alt="">
-                </a>
-            </div>
-        </div><!-- /.row -->
-        <hr>
-        <!-- Project Four -->
-        <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-4">
-                <a href="#">
-                    <img class="img-responsive" src="img/schematic.png" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-4">
-                <a href="#">
-                    <img class="img-responsive" src="img/clock.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-4">
-                <a href="#">
-                    <img class="img-responsive" src="img/prototype.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-md-3 col-sm-12 col-xs-12">
-                <h3>Reverse Parking Sensor</h3>
-                <h4>using 555 Timer</h4>
-                <small>The premise of this project was to enable feedback to driver when driving in reverse.
-                Through the lighting of 3 LEDs( green , yellow, and red) to indicate proximity (from farthest to nearest respectively) of the rear bumper of car
-                to some static object(eg. wall or another car)</small>
-            </div>
-        </div><!-- /.row -->
-    </section>
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Curriculum Vitae</h2>
-                    <p>A summary of my experiences</p>
-                    <a href="documents/Resume_Fall_2016.pdf" class="btn btn-default btn-lg" download="documents/Resume_Fall_2016.pdf">My Resume</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Information</h2>
-                <p>If you have any questions, don't hesitate to message me.Thank You.</p>
-                <p><a href="mailto:feedback@startbootstrap.com">jose.roque@mavs.uta.edu</a></p>
-                <p>214-960-6330</p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://github.com/JoseRoque" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/joseroquecse" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- Footer -->
-     <footer>
-         <div class="container text-center">
-             <p></p>
-         </div>
-     </footer>
-
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
+    <script src="js/jquery.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        var $lightbox = $('#lightbox');
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+        $('[data-target="#lightbox"]').on('click', function(event) {
+          var $img = $(this).find('img'),
+              src = $img.attr('src'),
+              alt = $img.attr('alt'),
+              css = {
+                  'maxWidth': $(window).width() - 100,
+                  'maxHeight': $(window).height() - 100
+              };
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+              $lightbox.find('img').attr('src', src);
+              $lightbox.find('img').attr('alt', alt);
+              $lightbox.find('img').css(css);
+          });
 
-</body>
+          $lightbox.on('shown.bs.modal', function (e) {
+          var $img = $lightbox.find('img');
 
+          $lightbox.find('.modal-dialog').css({'width': $img.width()});
+          });
+
+      }); // end doc on ready
+
+    </script>
+
+    <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+    $('#my_titles').typeIt({
+      strings: ["A Technology Enthusiast,", "Mentor,","& Life Long Learner"],
+      speed: 50,
+      autoStart: false
+    });
+
+    </script>
+  </body>
 </html>
