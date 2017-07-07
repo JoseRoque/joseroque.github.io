@@ -42,7 +42,7 @@ Responsive media queries
 ************************************
 ***********************************/
 .header {
-    background: url('../img/code.jpeg') no-repeat fixed;
+    background: url('../img/rsz_code.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 430px;
     position: relative;
